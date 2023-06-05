@@ -1,0 +1,114 @@
+Angular For Beginners
+Angular Core Deep Dive
+RxJs In Practice
+Angular Forms In Depth
+Angular Router In Depth
+Reactive Design Patterns
+NgRx and NgRx Data
+Angular Testing
+Angular Material
+Angular Security
+Angular Universal
+Progressive Web Apps
+REST with NestJs and MongoDB
+Firebase & AngularFire
+Online Payments
+ 
+=================================================================================================================
+
+Components
+Input, Outputs, Events
+Core Directives; ngFor, ngIf, etc.
+Component Styling, ngClass, ngStyle, etc.
+Pipes
+Basics of dependency injection
+Services
+HTTP Client (GET, POST, PUT, DELETE)
+Modules
+
+
+=================================================================================================================
+
+More advanced.
+Lifecycle Hooks (ngOnInit, ngOnDestroy, etc.)
+@ViewChild and AfterViewInit
+@ViewChildren
+ng-content and Component Projection
+@ContentChild and AfterContentInit
+@ContentChildren
+ng-template & ng-container
+ngTemplateOutlet
+Change Detection (default, OnPush and custom)
+View Encapsulation modes
+Custom Directives
+Structural Directives
+Dependency Injection in detail
+advanced styling options: host, host-context, etc.
+@NgPlural and other i18n features
+Angular Elements
+
+RxJs In Practice:
+Stream
+Observable
+Subscriptions
+The Observable contract
+learn how to read marble diagrams
+
+Angular Forms In Depth
+
+Angular Router In Depth
+
+Reactive Design Patterns
+
+Series of commonly used design patterns (or application design recipes):
+how to handle application state with plain RxJs
+Smart vs Presentational Components
+Stateless Observable Services
+Decoupled component communication using shared observable services
+Error Handling and error messages in reactive style
+Loading Indicators in reactive style
+lightweight state management RxJs stores
+Optimistic UI updates
+Managing User Authentication state with plain RxJs
+Master Detail with cached master table in reactive style
+The Single Data Observable Pattern
+The Reactive Angular Course (5.5h) covers these patterns and many more:
+
+
+NgRx and NgRx Data
+
+
+Angular Testing
+
+Angular Material
+
+Angular Security
+
+Angular Universal
+
+Progressive Web Apps
+
+REST with NestJs and MongoDB
+
+Firebase, Firestore and AngularFire
+
+Online Payments
+
+========================================================================================================================================================================================================================
+Summary
+Here is the best way to learn Angular:
+
+start with the Angular for Beginners course, and master the major core concepts that you will be using all the time, like components, services, modules, etc.
+learn the Angular core features if you want early on, but bear in mind that some of these features are less frequently used at the application level, so you might want to learn them later instead, its up to you
+Focus on learning the main concepts of RxJs, like the notions of stream, Observable and the Observable contract, as well as the most commonly used operators.
+Don't invest a lot of time learning all the RxJs operators available, as this can quickly become counterproductive
+learn early on the Forms module, as its one of the modules that you will be using more often, and focus on reactive forms as opposed to template driven forms
+Learn how to setup the navigation system of your application using the Angular router
+Learn how to design both the view and the service layer of your application using simple RxJs techniques, including lightweight state management
+only if of those techniques are not sufficient, then consider learning a state management library like NgRx
+NgRx comes with NgRx Data, which is meant to handle entity state. This is meant to be used as a complement to standard NgRx techniques, and not replace them
+Learn more advanced topics only as you need them or if you want to improve your knowledge for the future: for example security, server-side rendering or progressive web apps are examples of topics that are not essential at the beginning but that later on you might be curious to learn more about
+use as much as possible the Angular Material library, to avoid having to implement your own widgets from scratch, or having to use third-party jQuery based widgets that will increase a lot the Javascript payload of your page
+If you are looking to build your backend also in Typescript, you might want to have a look at NestJs, which is a Typescript-based web framework that reuses many of the concepts that we use also while building Angular frontends, like components, services, modules, etc.
+If you are looking for a serverless option for your backend, the Firebase ecosystem and especially the Firestore database provide a great solution. These are especially well integrated with Angular via the AngularFire library
+You can find all the courses listed in this post in the Angular University website home page, ordered by the recommended learning order.
